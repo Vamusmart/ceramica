@@ -30,22 +30,20 @@
  */
 
 :root {
-  --lightyellow: #ebfd2a;
-  --white: #ffffff;
-  --darkwhite: #f9f9f9;
-  --darkgray: #55556f;
-  --attention: #bb1a06;
-  --darkblue: #273c88;
-  --blueshadow: #2501c44d;
-  --lightshadow: #ebfd2aa7;
+  /* Nuova Palette "Fornace Tradizionale" */
+  --lightyellow: #6caec5;   /* Diventa un caldo color Terracotta (colore primario del brand) */
+  --white: #ffffff;          /* Bianco puro per box e elementi di stacco */
+  --darkwhite: #fdfbf7;      /* Crema/Lino delicato: evita l'effetto "ospedale" del bianco puro */
+  --darkgray: #5e534c;       /* Grigio terra bruciata per testi secondari e placeholder */
+  --attention: #bb1a06;      /* Rosso scuro per avvisi importanti */
+  --darkblue: #385C6A;       /* Ottanio per testi principali ad alto contrasto */
+  
+  /* Ombre coerenti coi nuovi toni */
+  --blueshadow: rgba(28, 45, 66, 0.15);
+  --lightshadow: rgba(217, 116, 67, 0.2);
 
-}
-
-:root {
+  /* Variabili di struttura esistenti */
   --nav-height: 75px;
-}
-
-:root {
   --font-small: 1rem;
   --font-normal: 1.7rem;
   --font-large: 3rem;
